@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap 5 Exercises</title>
+
+  <!-- Load Bootstrap CSS from CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Load Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light text-dark">
+
+  <!-- Bootstrap 5 Exercises Title -->
+  <div class="container py-4">
+    <h1 class="text-center mb-4">Bootstrap 5 Exercises</h1>
+
+    <!-- Section 1: Basic Grid Layout -->
+    <section class="mb-4">
+      <h2 class="text-primary">1. Basic Grid</h2>
+      <div class="row">
+        <div class="col-sm-4 bg-info text-white p-3">Column 1</div>
+        <div class="col-sm-4 bg-success text-white p-3">Column 2</div>
+        <div class="col-sm-4 bg-warning text-dark p-3">Column 3</div>
+      </div>
+    </section>
+
+    <!-- Section 2: Responsive Sidebar Layout -->
+    <section class="mb-4">
+      <h2 class="text-primary">2. Sidebar Layout</h2>
+      <div class="row">
+        <div class="col-md-3 bg-secondary text-white p-3">Sidebar</div>
+        <div class="col-md-9 bg-light p-3">Main Content</div>
+      </div>
+    </section>
+
+    <!-- Section 3: Responsive Alignment -->
+    <section class="mb-4">
+      <h2 class="text-primary">3. Responsive Alignment</h2>
+      <div class="d-flex justify-content-between flex-column flex-sm-row bg-light p-3 border">
+        <div>Left</div>
+        <div>Center</div>
+        <div>Right</div>
+      </div>
+    </section>
+
+    <!-- Section 4: Cards with Flexbox -->
+    <section class="mb-4">
+      <h2 class="text-primary">4. Flex Utilities & Cards</h2>
+      <div class="d-flex gap-3 flex-wrap">
+        <div class="card" style="width: 12rem;">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+            <a href="#" class="btn btn-primary">Go</a>
+          </div>
+        </div>
+        <div class="card" style="width: 12rem;">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Some quick example text.</p>
+            <a href="#" class="btn btn-primary">Go</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Forms (Register and Login) -->
+    <section class="mb-4">
+      <h2 class="text-primary">5. Forms</h2>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Name</label>
+          <input type="text" class="form-control" id="inputName" placeholder="John Doe">
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
+        </div>
+        <div class="col-12">
+          <label for="inputPassword" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success">Register</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Section 6: Buttons -->
+    <section class="mb-4">
+      <h2 class="text-primary">6. Buttons</h2>
+      <div class="d-flex flex-wrap gap-2">
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-outline-danger">Outline</button>
+        <button class="btn btn-warning btn-lg">Large Button</button>
+      </div>
+    </section>
+
+    <!-- Section 7: Navigation -->
+    <section class="mb-4">
+      <h2 class="text-primary">7. Navigation</h2>
+      <ul class="nav nav-tabs mb-3">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section 8: Image with Badge -->
+    <section class="mb-4">
+      <h2 class="text-primary">8. Image and Badge</h2>
+      <div class="position-relative d-inline-block">
+        <img src="https://via.placeholder.com/100" class="rounded-circle" alt="Profile" />
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          3
+        </span>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Load Bootstrap JS for dropdowns, modals, etc. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
